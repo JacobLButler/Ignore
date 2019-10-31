@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #239E78;
+}
+
+.container {
+	position: relative;
+	left: 25%;
+	margin-top: 10%;	
+	width: 50%;
+	height: 1000px;
+	background: white;
+	border-style: groove;
+	border-color: cadetblue;
+}
+
+.logo{
+    width:40%;
+    font-size: 70px;
+    font-weight: bold;
+    color: #d13100;
+    float:inherit;
+    position: fixed;
+}
+.scoreBar{
+    width: 50%;
+    float:right;
+    background: #fff;
+    color: #111;
+
+    padding:10px;
+    position: relative;
+    margin-top:10px;
+}
